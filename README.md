@@ -6,17 +6,18 @@ inserisci nome della tabella,
 inserisci le colonne per definire il modello
 assicurati di indicare la struttura dati da usare ed eventuali attributi per ciascuna colonna
 
-## nome tabella: 'macchine'
+## nome tabella: 'cars'
 ## colonne tabella: 
-- marca: VARCHAR(50) - NOT NULL
-- modello: VARCHAR (150) - NOT NULL
-- targa: VARCHAR(7) - NULL
-- colore: VARCHAR(30) - NULL
-- anno: YEAR() - NOT NULL
-- prezzo: DECIMAL (7,2) - NOT NULL
-- carburante: VARCHAR(30) - NULL
-- chilometraggio: MEDIUMINT - NOT NULL
-- numero porte: TINYINT - NULL
-- posti: TINYINT - NULL 
-- descrizione: TEXT() - NOT NULL
+- id: BIGINT - primary key- auto increment - NOTNULL
+- brand: VARCHAR(50) - NOTNULL
+- model: VARCHAR (150) - NOTNULL
+- License_plate: CHAR(7) - NULL
+- color: VARCHAR(30) - NULL
+- year: YEAR() - NOTNULL
+- price: DECIMAL (7,2) - NOTNULL
+- Fuel: VARCHAR(30) - NOTNULL
+- km: MEDIUMINT - NOTNULL
+- number_doors: TINYINT - NULL
+- seats: TINYINT - NULL 
+- description: TEXT() - NOTNULL
 
